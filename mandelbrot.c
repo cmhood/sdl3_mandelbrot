@@ -363,7 +363,6 @@ handle_event(App *app, SDL_Event const *e)
 	case SDL_EVENT_MOUSE_MOTION:
 		if (app->mouse_mode == MOUSE_MODE_PAN) {
 			pan(app, e->motion.xrel, e->motion.yrel);
-			break;
 		}
 		app->mouse_x = e->motion.x;
 		app->mouse_y = e->motion.y;
