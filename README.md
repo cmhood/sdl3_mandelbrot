@@ -5,8 +5,6 @@ visualizer written in C99.
 
 This program uses SDL 3 and OpenGL ES 3.0.
 
-## Screenshot
-
 ![Screenshot](./screenshot.png)
 
 ## Building
