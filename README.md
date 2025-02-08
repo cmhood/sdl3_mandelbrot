@@ -25,7 +25,7 @@ To build, simply run `make`.
 
 ## Caveats
 
-  * Every draw call renders the entire screen. This could be optimized by
+  * Every draw call re-renders every visible pixel. This could be optimized by
     rendering to an off-screen framebuffer.
   * If you zoom in too much, the floating-point values run out of precision and
     you will see rectangles.
